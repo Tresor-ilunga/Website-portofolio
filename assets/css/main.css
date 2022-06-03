@@ -898,6 +898,10 @@ body.light-theme {
     background-color: hsl(var(--second-hue), 8%, 20%);
 }
 
+<<<<<<< HEAD
+=======
+/*=============== BREAKPOINTS ===============*/
+>>>>>>> 034c71967dda36414aed86fb06e38a2ab9137aa4
 /* For small devices */
 @media screen and (max-width: 320px) {
     .nav__menu {
