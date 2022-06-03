@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +60,57 @@
     <main class="main">
         <!--=============== HOME ===============-->
         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="#" class="home__social-link" target="_blank">
+                            <i class="bx bxl-linkedin-square"></i>
+                        </a>
 
+                        <a href="#" class="home__social-link" target="_blank">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="-79" y="-46" xlink:href="assets/img/"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hello, Je m'appelle Tresor ilunga</h1>
+                        <h3 class="home__subtitle">Développeur Web</h3>
+                        <p class="home__description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum corporis ab fugiat.
+                        </p>
+
+                        <a href="#" class="button">
+                            Contactez-moi
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class='bx bx-mouse home__scroll-mouse'></i>
+                        <span class="home__scroll-name">Faites défiler</span>
+                    </a>
+                </div>
+            </div>
         </section>
         <!--=============== ABOUT ===============-->
         <section class="about section" id="about">
@@ -91,10 +142,10 @@
                     </div>
 
                     <p class="about__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Nisi dolores incidunt, accusamus magnam quis eaque?
                     </p>
-                    
+
                     <a href="assets/cv/" class="button">Télécharger CV</a>
                 </div>
             </div>
@@ -326,7 +377,173 @@
             </div>
         </section>
         <!--=============== WORK ===============-->
-        
+        <section class="work section" id="work">
+            <span class="section__subtitle">Portfolio</span>
+            <h2 class="section__title">Travaux récents</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".web">Web</span>
+                <span class="work__item" data-filter=".mobil">Mobile</span>
+                <span class="work__item" data-filter=".design">Design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="" alt="" class="work__img">
+
+                    <h3 class="work__title">Web</h3>
+
+                    <a href="#" class="work__button">
+                        Démo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix mobil">
+                    <img src="" alt="" class="work__img">
+
+                    <h3 class="work__title">App Mobile</h3>
+
+                    <a href="#" class="work__button">
+                        Démo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="" alt="" class="work__img">
+
+                    <h3 class="work__title">Design</h3>
+
+                    <a href="#" class="work__button">
+                        Démo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="" alt="" class="work__img">
+
+                    <h3 class="work__title">Web Design</h3>
+
+                    <a href="#" class="work__button">
+                        Démo <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">Mes clients disent</span>
+            <h2 class="section__title">Témoignages</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">René Suze</h3>
+                        <p class="testimonial__description">
+                            Un très bon travail, tous les aspects du projet ont été suivis étape par étape et avec de
+                            bons résultats.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Alice</h3>
+                        <p class="testimonial__description">
+                            Un très bon travail, tous les aspects du projet ont été suivis étape par étape et avec de
+                            bons résultats.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Patient Kasongo</h3>
+                        <p class="testimonial__description">
+                            Un très bon travail, tous les aspects du projet ont été suivis étape par étape et avec de
+                            bons résultats.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Contact</span>
+            <h2 class="section__title">Prenez contact</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Discussions</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="bx bx-mail-send contact__card-icon"></i>
+                            <h3 class="contact__card__title">Email</h3>
+                            <span class="contact__card-data">Ilungat82@gmail.com</span>
+
+                            <a href="#" target="_blank" class="contact__button">
+                                Écris-moi <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="bx bxl-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+243 850641798</span>
+
+                            <a href="#" target="_blank" class="contact__button">
+                                Écris-moi <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="bx bxl-telegram contact__card-icon"></i>
+                            <h3 class="contact__card-title">Telegram</h3>
+                            <span class="contact__card-data">Tresor-ilunga</span>
+
+                            <a href="#" target="_blank" class="contact__button">
+                                Écris-moi <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Messages</h3>
+
+                    <form action="index.html" method="post" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Noms</label>
+                            <input type="text" name="name" required placeholder="Insérez votre nom"
+                                class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Email</label>
+                            <input type="email" name="email" required placeholder="Insérez votre e-mail"
+                                class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Messages</label>
+                            <textarea name="message" id="message" cols="30" rows="10" required
+                                placeholder="Saisissez votre message" class="contact__form-input"></textarea>
+                        </div>
+
+                        <button type="submit" class="button" name="validate">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+    <!--=============== FOOTER ===============-->
 </body>
+
 </html>
