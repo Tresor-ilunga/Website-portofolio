@@ -368,6 +368,8 @@ body.light-theme {
 .home__description {
     margin-bottom: var(--mb-2);
     margin-bottom: 1.5rem;
+    justify-content: center;
+    
 }
 
 .portfolio__scroll {
@@ -479,6 +481,7 @@ body.light-theme {
 
 .about__description {
     margin-bottom: 2rem;
+    justify-content: center;
 }
 
 /*=============== SKILLS ===============*/
