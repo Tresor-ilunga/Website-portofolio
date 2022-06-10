@@ -904,7 +904,7 @@ body.light-theme {
     background-color: hsl(var(--second-hue), 8%, 20%);
 }
 
-/*=============== BREAKPOINTS ===============*/
+/*======================== Media Queries ======================*/
 /* For small devices */
 @media screen and (max-width: 320px) {
     .nav__menu {
